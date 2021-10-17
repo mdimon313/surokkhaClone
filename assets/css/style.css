@@ -437,13 +437,6 @@ ul.single_contact_card {
 .reg_banner {
   background-color: var(--reg-bg);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
->>>>>>> c67ee2404298dbc39328b69ea4506c5781252156
-=======
->>>>>>> c67ee2404298dbc39328b69ea4506c5781252156
 .verify_btn,
 .input_control,
 .form-select {
@@ -470,8 +463,6 @@ p.verify_title {
 }
 
 /* Registration End */
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 /* card Start */
 .banner_card {
@@ -503,7 +494,35 @@ h1.card_header_link a:hover {
   background-color: var(--green-hover);
 }
 /* status end */
-=======
->>>>>>> c67ee2404298dbc39328b69ea4506c5781252156
-=======
->>>>>>> c67ee2404298dbc39328b69ea4506c5781252156
+
+/* Error Start */
+.error {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.error_content h1 {
+  font-size: 10rem;
+  font-weight: var(--font-bold);
+  font-family: var;
+  color: var(--primary);
+  letter-spacing: 10px;
+  text-shadow: 0px 7px 10px var(--primary-alt);
+}
+
+.error_content h4 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--primary-alt);
+  text-shadow: 0px 3px 5px var(--primary-alt);
+}
+
+.error_content a {
+  color: var(--primary-alt);
+  font-size: 1rem;
+  font-family: var(--font);
+  text-transform: lowercase;
+}
+.error_content a:hover {
+  color: var(--primary);
+}
+/* Error End */
