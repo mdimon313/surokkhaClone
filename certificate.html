@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="apple-touch-icon" href="./assets/img/favicon.png" />
+    <link rel="theme-color" content="#000000" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- custom -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/media.css" />
+    <title>সুরক্ষাঃ কোভিড-১৯</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img src="./assets/img/logo.png" alt="Surokkha"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link d-block active" aria-current="page" href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./registration.html">Registration</a>
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./Registration-birth.html">Registration (Birth Cert)</a>
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./registration-pass.html">Registration (Passport)</a>
+              </li>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#">Status</a>
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./card.html">Card</a>
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./certificate.html">Certificate</a>
+              </li>
+              <li class="nav-item d-block">
+                <a class="nav-link" href="./verify-certificate.html">Verify Certificate</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-warning text-white">
+              বাংলা
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+    <main>
+      <!-- Registration Banner -->
+      <div class="banner_certificate py-3">
+        <div class="container">
+          <div class="banner_wrap">
+            <div class="row align-items-center">
+              <div class="col-lg-6 col-md-12 col-12 text-center">
+                <div class="heading"><h2>Certificate</h2></div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-12 text-center">
+                <div class="banner_img">
+                  <img
+                    src="./assets/img/new-certification-card.ac1c4d8c.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main from -->
+      <div class="form_main py-5">
+        <div class="container">
+            <div class="process_header mb-4">
+                <h1 class="card_header_link mb-4">
+                    <a href="./registration-pass.html">Download Your Vaccine Certificate (Passport holder Bangladeshi and Foreigners)</a>
+                </h1>
+                                
+            </div>
+          <div class="reg_header mb-5">
+            <p>
+              Enter your National Identity Card number and date of birth (according to the National Identity Card) in the form below and click on the "Verify" button. An OTP code will be sent via SMS to the mobile number provided at the time of registration. Then, you can download the Covid-19 Vaccine Certificate.
+            </p>
+          </div>
+          <form action="#">
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-12 mt-md-3 mt-sm-3 mt-xs-3">
+                <label class="mb-2">National Identity Card Number:</label>
+                <input
+                  type="number"
+                  class="form-control input_control"
+                  placeholder="Example - 123456789"
+                />
+              </div>
+              <div class="col-lg-4 col-md-12 col-12 mt-md-4 mt-sm-4 mt-xs-4">
+                <label for="" class="mb-2"
+                  >Date of birth (according to national identity card):</label
+                >
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <select class="form-select" id="inputGroupSelect01">
+                      <option selected>Day...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <select class="form-select mt-md-3 mt-sm-3 mt-xs-3" id="inputGroupSelect01">
+                      <option selected>Month...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
+                    <select class="form-select mt-md-3 mt-sm-3 mt-xs-3" id="inputGroupSelect01">
+                      <option selected>Years...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 mt-5">
+                <div class="verify_option card border">
+                  <div class="card_number select-none border-bottom p-2">
+                    <h4 class="text-center user-select-none">X Z A H R E</h4>
+                  </div>
+                  <div class="verify_box p-2">
+                    <p class="verify_title"></p>
+                      Write the letters from above here
+                    </p>
+                    <input type="text" class="form-control input_control" />
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-secondary w-100 mt-3 disabled verify_btn"
+                >
+                  Verify
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-12">
+              <div class="f-logo">
+                <img src="./assets/img/logo_white.8ef9a1c4.svg" alt="" class="img-fluid">
+              </div>
+            </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 mt-sm-3">
+                  <div class="f_menu">
+                    <ul>
+                      <li><a href="#" class="text-capitalize">FAQ</a></li>
+                      <li><a href="#" class="text-capitalize">Manual</a></li>
+                      <li>
+                        <a href="#" class="text-capitalize">privacy policy</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-capitalize">terms of service</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-capitalize">other Affiliates</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 mt-3">
+                <div class="affiliates_area">
+                  <h6 class="text-capitalize text-white">
+                    Developed by - department of ICT
+                  </h6>
+                  <img
+                    src="./assets/img/org.ed08c793.png"
+                    alt="Ict"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 mt-3">
+                <div class="affiliates_area">
+                  <h6 class="text-capitalize text-white">affilites -</h6>
+                  <img
+                    src="./assets/img/org.ed08c793 (1).png"
+                    alt="affiliates"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+  </body>
+</html>
